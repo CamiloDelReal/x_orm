@@ -362,7 +362,7 @@ struct QMetaTypeId<XForeignKeyPriv<T>*>
     static int qt_metatype_id()
     {
         static QBasicAtomicInt metatype_id = Q_BASIC_ATOMIC_INITIALIZER(0);
-        if (const int id = metatype_id.load())
+        if (const int id = metatype_id.loadRelaxed())
             return id;
         const char *tName = QMetaType::typeName(qMetaTypeId<T>());
         Q_ASSERT(tName);
