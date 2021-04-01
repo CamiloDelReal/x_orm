@@ -34,7 +34,7 @@ public:
         for(quint32 i = propertyOffset; i < propertyCount; i++)
         {
             QMetaProperty property = metaObject.property(i);
-            XField field(property.name(), static_cast<QMetaType::Type>(property.type()));
+            XField field(property.name(), static_cast<QMetaType::Type>(property.metaType().id()));
             fields << field;
         }
 
@@ -120,7 +120,7 @@ public:
         for(qint32 i = 0; i < fields.size(); i++) \
         { \
             XField field = fields.at(i); \
-            field.setType(static_cast<QMetaType::Type>(meta.property(meta.indexOfProperty(field.member().toLocal8Bit().data())).type())); \
+            field.setType(static_cast<QMetaType::Type>(meta.property(meta.indexOfProperty(field.member().toLocal8Bit().data())).metaType().id())); \
             fields.replace(i, field); \
         } \
         return fields; \
