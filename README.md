@@ -20,7 +20,8 @@ Qt object relational mapping library
 
 #### One Entity
 <img src="https://github.com/CamiloDelReal/svg-export-to-mobile-resources/blob/develop/screenshots/export-view-1.png" width="50%" height="50%" />
-``class Member : public QObject, public XTableModel<Member>
+``
+class Member : public QObject, public XTableModel<Member>
 {
     Q_OBJECT
 
@@ -59,7 +60,8 @@ private:
     quint64 m_guid;
     QString m_name;
     QString m_job;
-};``
+};
+``
 
 ## One to One
 
