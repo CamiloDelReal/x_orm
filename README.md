@@ -19,7 +19,7 @@ Qt object relational mapping library
 ### Examples
 
 #### One Entity
-<img src="https://github.com/CamiloDelReal/svg-export-to-mobile-resources/blob/develop/screenshots/export-view-1.png" width="50%" height="50%" />
+<img src="https://github.com/CamiloDelReal/x_orm/blob/develop/design/one_entity.png" width="50%" height="50%" />
 
     class Member : public QObject, public XTableModel<Member>
     {
