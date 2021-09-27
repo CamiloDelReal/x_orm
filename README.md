@@ -67,7 +67,7 @@ Qt object relational mapping library
 
 
 #### One to One
-<img src="https://github.com/CamiloDelReal/x_orm/blob/develop/design/one_to_one_1.jpg" width="50%" height="50%" />
+<img src="https://github.com/CamiloDelReal/x_orm/blob/develop/design/one_to_one.jpg" width="50%" height="50%" />
 
     class Department : public QObject, public XTableModel<Department>
     {
