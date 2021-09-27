@@ -67,7 +67,7 @@ Qt object relational mapping library
 
 
 #### One to One
-<img src="https://github.com/CamiloDelReal/x_orm/blob/develop/design/one_to_one.jpg" width="50%" height="50%" />
+<img src="https://github.com/CamiloDelReal/x_orm/blob/develop/design/one_to_one.jpg" width="80%" height="80%" />
 
     class Department : public QObject, public XTableModel<Department>
     {
@@ -175,6 +175,7 @@ Qt object relational mapping library
     };
 
 #### One to Many
+<img src="https://github.com/CamiloDelReal/x_orm/blob/develop/design/one_to_many.jpg" width="80%" height="80%" />
 
     class Project : public QObject, public XTableModel<Project>
     {
@@ -281,6 +282,7 @@ Qt object relational mapping library
     };
 
 #### Many to Many
+<img src="https://github.com/CamiloDelReal/x_orm/blob/develop/design/many_to_many.jpg" width="80%" height="80%" />
 
     class Project : public QObject, public XTableModel<Project>
     {
