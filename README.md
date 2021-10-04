@@ -16,10 +16,14 @@ Qt object relational mapping library
 - Qt Framework Open Source
   * [Qt Framework](https://www.qt.io/)
 
-
-### 
-
 ### Examples
+
+#### Demos
+- [Console](https://github.com/CamiloDelReal/xorm_local_demo)
+- [One Entity with UI](https://github.com/CamiloDelReal/xorm_local_demo_one)
+- [One to One relationship with UI](https://github.com/CamiloDelReal/xorm_local_demo_one_to_one)
+- [One to Many relationship with UI](https://github.com/CamiloDelReal/xorm_local_demo_one_to_many)
+- [Many to Many relationship with UI](https://github.com/CamiloDelReal/xorm_local_demo_many_to_many)
 
 #### One Entity
 <img src="https://github.com/CamiloDelReal/x_orm/blob/develop/design/one_entity.jpg" width="50%" height="50%" />
