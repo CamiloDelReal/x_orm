@@ -3,6 +3,9 @@ Qt object relational mapping library
 
 <img src="https://github.com/CamiloDelReal/x_orm/blob/develop/artwork/logo.svg" />
 
+## This project will not be maintenance anymore
+I am not working for Qt since a while and updates started to become hard after so much changes in Qt 6
+
 ### Features
 - Database entities
 - Entity foreign relationships
